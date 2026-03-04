@@ -42,7 +42,7 @@ Neuro Reticulum LiveUSB image
 - Записать образ на usb флэшку с помощью dd или любых других инструментов, таких как Rufus или Balena Etcher
 для оптимальной скорости работы лучше использовать флешки с хорошей скоростью чтения/записи стандарта 3.2
 
-Download: HF link
+Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 ### Образ протестирован на:
 
