@@ -20,15 +20,15 @@ Neuro Reticulum LiveUSB image
 
 В образ интегрированы следующие инструменты:
 - llama.cpp 
-- stable-diffusion.cpp 
+- ~~stable-diffusion.cpp~~ (В образе на 32Gb)
 - whisper.cpp
 
 Модели:
 - DeepSeek-R1-0825
 - перевод whisper-large.v3
-- Qwen Coder
+- ~~Qwen Coder~~
 - medgemma
-- Flux
+- ~~Flux~~
 
 Сетевые инструменты:
 - Reticulum Network Stack (rns, nomadnet, sideband)
