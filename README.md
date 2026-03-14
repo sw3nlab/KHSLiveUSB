@@ -14,9 +14,10 @@ Neuro Reticulum LiveUSB image
  | | |\ V /  __/     
  |_|_| \_/ \___|     
 ```
-Образ 16Gb KHSLiveUSB основан на Debian 13 Trixie
-Для запуска легковесных моделей нейросетей и организации связи через Reticulum
 
+The KHSLiveUSB image is built on Debian 13 Trixie with Xfce and kernel 6.12 for the AMD64 architecture.
+
+It is designed for standalone operation on PCs with moderate to high computing power, PCs and mini PCs without SSDs or HDDs, and for operation in conditions with partial or no internet connection, with the ability to locally run lightweight neural network models and establish communication via Reticulum.
 
 
 Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
