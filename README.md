@@ -34,7 +34,7 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 ![image](images/interfaces.jpg)
 
 INSTALL:
-- Download image foximage_armv7l_0.1.iso ( https://huggingface.co/cyberunit/KHSLiveUSB/tree/main )
+- Download image foximage_armv7l_0.2.bin ( https://huggingface.co/cyberunit/KHSLiveUSB/tree/main )
 - Write to 8Gb MicroSD Card
 ```php
 dd if=cyberfox_armv7l.iso of=/dev/sd? bs=1M status=progress
@@ -61,3 +61,6 @@ Star Node Daemon (no GUI)
 ```php
 nomadnet -d
 ```
+
+Example Node pages 
+https://github.com/sw3nlab/KHSLiveUSB/tree/main/reticulum_node_example
