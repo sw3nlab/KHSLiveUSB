@@ -451,7 +451,7 @@ Password: `B444`<!20|password`>`b
 `c`F888Total: 7 files available`f
 ```
 
-### Динамически обновляемая страница
+### Динамически обновляемая страница на Python
 
 ```python
 #!/usr/bin/env python3
@@ -510,4 +510,21 @@ messages = [
 for msg in messages:
     print(f"`a{msg}")
     print("")
+```
+### Динамически обновляемая страница на PHP
+
+для формирования страниц на php необходимо установить php на ноду, дать нужной странице права и незабыть указать шибэнг на адрес интерпритатора
+
+Лайк Зыс
+```php
+sudo apt-get install php
+cd ~/.nomadnetwork/storage/pages/
+echo "Hello Everybody">php_page.mu
+sudo chmod +x php_page.mu
+```
+затем приступить к редактированию этой страницы через vi/nano/emacs и.д.
+```php
+#!/usr/bin/php
+Hello Everybody
+<?php echo "This is my first page in Reticulum Network";?>
 ```
