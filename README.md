@@ -30,7 +30,7 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 ![image](images/cyberfox.jpg)
 
-![image]images/interfaces.jpg)
+![image](images/interfaces.jpg)
 
 INSTALL:
 - UPLOAD image cyberfox_armv7l.iso 
@@ -44,7 +44,6 @@ where ? = youre MicroSD Card
 Default ip: 192.168.2.111
 
 Default login: pico
-
 Default pass: luckfox
 
 >Check configs and start Node
