@@ -33,7 +33,7 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 ![image](images/interfaces.jpg)
 
 INSTALL:
-- UPLOAD image cyberfox_armv7l.iso 
+- Download image cyberfox_armv7l.iso 
 - Write to 8Gb MicroSD Card
 ```php
 dd if=cyberfox_armv7l.iso of=/dev/sd? bs=1M status=progress
