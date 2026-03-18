@@ -26,3 +26,34 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 CYBERFOX_Reticulum_NODE powered by LuckFox pico PRO Max
 
 ![image](images/IMG_20260318_160824.jpg)
+
+
+![image](images/cyberfox.jpg)
+
+![image]images/interfaces.jpg)
+
+UPLOAD cyberfox_armv7l.iso 
+and write to 8Gb MicroSD Card
+```php
+dd if=cyberfox_armv7l.iso of=/dev/sd? bs=1M status=progress
+```
+where ? = youre MicroSD Card
+
+>SSH
+Default ip: 192.168.2.111
+Default login: pico
+Default pass: luckfox
+
+>Check configs and start Node
+ReticulumCFG = ~/.reticulum/config
+NodeCFG = ~/.nomadnetwork/config
+
+Start Node Pseudo-GUI
+```php
+nomadnet
+```
+
+Star Node Daemon (no GUI)
+```php
+nomadnet -d
+```
