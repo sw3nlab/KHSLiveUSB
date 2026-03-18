@@ -1,11 +1,7 @@
 
-# Micron Markup Examples
+# Примеры разметки для страниц ноды в сети Ретикулум (NomadNet)
 
-Practical examples for common Micron markup patterns.
-
-## Basic Formatting
-
-### Text Styles
+### Стиль текста
 
 ```micron
 Normal text followed by `!bold text`! then back to normal.
@@ -23,9 +19,9 @@ Combine them: `!`*`_bold italic underlined`_`*`!
 `!`*`_All formatting on`` and now everything is reset.
 ```
 
-## Colors
+## Цвета
 
-### Foreground Colors
+### Цвет текста
 
 ```micron
 `Ff00Red`f `F0f0Green`f `F00fBlue`f text.
@@ -33,7 +29,7 @@ Combine them: `!`*`_bold italic underlined`_`*`!
 `Ff80Orange`f `Fff0Yellow`f `F0ffCyan`f `Ff0fMagenta`f
 ```
 
-### Background Colors
+### Цвет заднего фона
 
 ```micron
 `Bf00 Red background `b
@@ -41,7 +37,7 @@ Combine them: `!`*`_bold italic underlined`_`*`!
 `B00f Blue background `b
 ```
 
-### Combined Colors
+### Комбинирование цветов
 
 ```micron
 `Bf00`FfffWhite text on red background`f`b
@@ -54,7 +50,7 @@ Combine them: `!`*`_bold italic underlined`_`*`!
 `g00Black `g25Dark gray `g50Medium gray `g75Light gray `g99White`f
 ```
 
-### Notification Box
+### Нотификейшен бокс
 
 ```micron
 `B5d5`F222 Notice: This is an important message `f`b
@@ -62,9 +58,9 @@ Combine them: `!`*`_bold italic underlined`_`*`!
 `B5bf`F000Success: Operation completed `f`b
 ```
 
-## Alignment
+## Выравнивание
 
-### Centered Text
+### Текст по центру страницы
 
 ```micron
 `cThis text is centered.
@@ -72,7 +68,7 @@ Still centered on this line.
 `aBack to default alignment.
 ```
 
-### Right Alignment
+### Текст справа
 
 ```micron
 `rRight-aligned text
@@ -80,7 +76,7 @@ Also right-aligned
 `lNow left-aligned
 ```
 
-### Mixed Alignment
+### Смешаное 
 
 ```micron
 `cWelcome to My Node
@@ -93,9 +89,9 @@ Also right-aligned
 `r`*Last updated: 2024-01-15`*
 ```
 
-## Sections and Headings
+## Секции с Заголовками
 
-### Basic Structure
+### Базовая структура
 
 ```micron
 >Main Section
@@ -111,7 +107,7 @@ Even more indented.
 Back to no indentation.
 ```
 
-### Section Without Heading
+### Ещё Секции 
 
 ```micron
 >Visible Heading
@@ -145,9 +141,9 @@ Installation instructions.
 Configuration steps.
 ```
 
-## Dividers
+## Разделители
 
-### Basic Divider
+### Базовые 
 
 ```micron
 Some content above.
@@ -157,7 +153,7 @@ Some content above.
 Some content below.
 ```
 
-### Styled Dividers
+### Стилизованые разделители
 
 ```micron
 -∿
@@ -177,7 +173,7 @@ Double-line divider.
 
 Dotted divider.
 
-## Links
+## Ссылки
 
 ### Simple Links
 
@@ -185,13 +181,13 @@ Dotted divider.
 Visit `[e9eafceea9e3664a5c55611c5e8c420a:/page/index.mu]
 ```
 
-### Labeled Links
+### Ссылки с подписями
 
 ```micron
 `[Click here to visit the home page`e9eafceea9e3664a5c55611c5e8c420a:/page/index.mu]
 ```
 
-### Styled Links
+### Стилизованые ссылки
 
 ```micron
 `F0af`_`[Home Page`:/page/index.mu]`_`f
@@ -199,14 +195,14 @@ Visit `[e9eafceea9e3664a5c55611c5e8c420a:/page/index.mu]
 `F0af`_`[Contact`:/page/contact.mu]`_`f
 ```
 
-### Local Links
+### Локальные ссылки
 
 ```micron
 `[Go to settings`:/page/settings.mu]
 `[Download file`:/file/document.pdf]
 ```
 
-### Navigation Menu
+### Навигационное меню
 
 ```micron
 >Navigation
@@ -217,9 +213,9 @@ Visit `[e9eafceea9e3664a5c55611c5e8c420a:/page/index.mu]
 `F0af`_`[About`:/page/about.mu]`_`f
 ```
 
-## Form Fields
+## Формы ввода
 
-### Text Input
+### Поле для ввода текста
 
 ```micron
 >Contact Form
@@ -232,7 +228,7 @@ Message:
 `B444`<60|message`>`b
 ```
 
-### Password Field
+### Поле для ввода пароля
 
 ```micron
 >Login
@@ -242,7 +238,7 @@ Username: `B444`<16|username`>`b
 Password: `B444`<!16|password`>`b
 ```
 
-### Sized Fields
+### Размеры полей
 
 ```micron
 First Name: `B444`<20|first_name`>`b
@@ -250,7 +246,7 @@ Last Name: `B444`<20|last_name`>`b
 Age: `B444`<3|age`>`b
 ```
 
-### Checkboxes
+### Чекбоксы
 
 ```micron
 >Preferences
@@ -262,7 +258,7 @@ Age: `B444`<3|age`>`b
 `B444`<?|dark_mode|yes|*`>`b Use dark mode (pre-checked)
 ```
 
-### Radio Buttons
+### Кнопки
 
 ```micron
 >Select Color
@@ -274,7 +270,7 @@ Age: `B444`<3|age`>`b
 `B009`<^|color|blue`>`b Blue
 ```
 
-### Pre-selected Radio
+### Выбор по умолчанию
 
 ```micron
 >Priority
@@ -284,9 +280,9 @@ Age: `B444`<3|age`>`b
 `<^|priority|high`> High
 ```
 
-## Form Submission
+## Отправка форм
 
-### Submit All Fields
+### Отправка всех полей
 
 ```micron
 >Registration
@@ -298,7 +294,7 @@ Password: `B444`<!|password`>`b
 `[Create Account`:/page/register.mu`*]
 ```
 
-### Submit Specific Fields
+### Отправка некоторых полей
 
 ```micron
 >Quick Search
@@ -308,7 +304,7 @@ Query: `B444`<query`>`b
 `[Search`:/page/search.mu`query]
 ```
 
-### Include Variables
+### Вставка переменных
 
 ```micron
 `[View Page 1`:/page/list.mu`action=view|page=1]
@@ -316,7 +312,7 @@ Query: `B444`<query`>`b
 `[View Page 3`:/page/list.mu`action=view|page=3]
 ```
 
-### Combined Fields and Variables
+### Комбинирование полей и переменных
 
 ```micron
 >Search
@@ -331,7 +327,7 @@ Results per page:
 `[Search`:/page/search.mu`query|limit|sort=relevance]
 ```
 
-## Comments
+## Комментарии
 
 ```micron
 # This line is not displayed
@@ -344,7 +340,7 @@ Visible content.
 
 ## Literal Mode
 
-### Code Block
+### Вставка блоков кода
 
 ```micron
 Example code:
@@ -367,9 +363,9 @@ To make text bold, use:
 `=
 ```
 
-## Complete Page Examples
+## Примеры готовых страниц
 
-### Welcome Page
+### Default Wellcome page
 
 ```micron
 #!c=3600
@@ -403,7 +399,7 @@ This is a NomadNet node hosting information and files.
 `c`*Powered by NomadNet`*
 ```
 
-### Login Form
+### Форма авторизации
 
 ```micron
 #!c=0
@@ -428,7 +424,7 @@ Password: `B444`<!20|password`>`b
 `F888`*Don't have an account?`* `F0af`_`[Register`:/page/register.mu]`_`f
 ```
 
-### File Browser
+### Листинг Файлов
 
 ```micron
 #!c=300
@@ -455,7 +451,7 @@ Password: `B444`<!20|password`>`b
 `c`F888Total: 7 files available`f
 ```
 
-### Dynamic Status Page
+### Динамически обновляемая страница
 
 ```python
 #!/usr/bin/env python3
@@ -484,7 +480,7 @@ else:
     print("`[Submit`:/page/status.mu`username]")
 ```
 
-### Message Board
+### Доска сообщений
 
 ```python
 #!/usr/bin/env python3
