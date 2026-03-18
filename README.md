@@ -25,4 +25,4 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 CYBERFOX_Reticulum_NODE powered by LuckFox pico PRO Max
 
-![image](images/)
+![image](images/IMG_20260318_160824.jpg)
