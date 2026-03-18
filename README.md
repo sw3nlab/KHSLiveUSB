@@ -32,8 +32,9 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 ![image]images/interfaces.jpg)
 
-UPLOAD cyberfox_armv7l.iso 
-and write to 8Gb MicroSD Card
+INSTALL:
+- UPLOAD image cyberfox_armv7l.iso 
+- Write to 8Gb MicroSD Card
 ```php
 dd if=cyberfox_armv7l.iso of=/dev/sd? bs=1M status=progress
 ```
@@ -41,11 +42,14 @@ where ? = youre MicroSD Card
 
 >SSH
 Default ip: 192.168.2.111
+
 Default login: pico
+
 Default pass: luckfox
 
 >Check configs and start Node
 ReticulumCFG = ~/.reticulum/config
+
 NodeCFG = ~/.nomadnetwork/config
 
 Start Node Pseudo-GUI
