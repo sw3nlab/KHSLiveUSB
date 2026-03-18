@@ -64,3 +64,8 @@ nomadnet -d
 
 Example Node pages 
 https://github.com/sw3nlab/KHSLiveUSB/tree/main/reticulum_node_example
+
+
+
+Donate: 
+https://dzen.ru/cyberunit?donate=true
