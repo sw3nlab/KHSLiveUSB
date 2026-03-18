@@ -21,3 +21,7 @@ It is designed for standalone operation on PCs with moderate to high computing p
 
 
 Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
+
+
+CYBERFOX_Reticulum_NODE powered by LuckFox pico PRO Max
+
