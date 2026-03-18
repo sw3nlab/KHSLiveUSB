@@ -23,7 +23,7 @@ It is designed for standalone operation on PCs with moderate to high computing p
 Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 
-#CYBERFOX_Reticulum_NODE powered by LuckFox pico PRO Max based on Ubuntu 22.04
+# CYBERFOX_Reticulum_NODE powered by LuckFox pico PRO Max based on Ubuntu 22.04
 
 ![image](images/IMG_20260318_160824.jpg)
 
@@ -33,7 +33,7 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 ![image](images/interfaces.jpg)
 
 INSTALL:
-- Download image cyberfox_armv7l.iso 
+- Download image cyberfox_armv7l.iso ( https://huggingface.co/cyberunit/KHSLiveUSB )
 - Write to 8Gb MicroSD Card
 ```php
 dd if=cyberfox_armv7l.iso of=/dev/sd? bs=1M status=progress
