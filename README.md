@@ -26,10 +26,10 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 # CYBERFOX Reticulum NODE powered by LuckFox pico PRO Max based on Ubuntu 22.04
 
-![image](images/IMG_20260318_160824.jpg)
-
-
 ![image](images/connect.jpg)
+
+
+![image](images/cyberfox.jpg)
 
 ![image](images/interfaces.jpg)
 
