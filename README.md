@@ -42,15 +42,15 @@ dd if=cyberfox_armv7l.iso of=/dev/sd? bs=1M status=progress
 where ? = youre MicroSD Card
 
 >SSH
-Default ip: 192.168.2.111
-Default login: pico
-Default pass: luckfox
+Default ip: 192.168.2.111<br/>
+Default login: pico<br/>
+Default pass: luckfox<br/>
 
 >Web-interface:
 http://192.168.2.111/index.php
 
 >Configs
-ReticulumCFG = ~/.reticulum/config
+ReticulumCFG = ~/.reticulum/config<br/>
 NodeCFG = ~/.nomadnetwork/config
 
 
