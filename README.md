@@ -33,6 +33,7 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 ![image](images/interfaces.jpg)
 
+![image](images/download.jpg)
 INSTALL:
 - Download image foximage_armv7l_0.3.bin ( https://huggingface.co/cyberunit/KHSLiveUSB/tree/main )
 - Write to 8Gb MicroSD Card
