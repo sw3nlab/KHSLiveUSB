@@ -43,24 +43,18 @@ where ? = youre MicroSD Card
 
 >SSH
 Default ip: 192.168.2.111
-
 Default login: pico
 Default pass: luckfox
 
->Check configs and start Node
-ReticulumCFG = ~/.reticulum/config
+>Web-interface:
+http://192.168.2.111/index.php
 
+>Configs
+ReticulumCFG = ~/.reticulum/config
 NodeCFG = ~/.nomadnetwork/config
 
-Start Node Pseudo-GUI
-```php
-nomadnet
-```
 
-Star Node Daemon (no GUI)
-```php
-nomadnet -d
-```
+
 
 Example Node pages 
 https://github.com/sw3nlab/KHSLiveUSB/tree/main/reticulum_node_example
