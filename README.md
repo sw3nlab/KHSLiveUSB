@@ -29,7 +29,7 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 ![image](images/IMG_20260318_160824.jpg)
 
 
-![image](images/cyberfox.jpg)
+![image](images/connect.jpg)
 
 ![image](images/interfaces.jpg)
 
