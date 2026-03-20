@@ -8,11 +8,15 @@ Neuro Reticulum LiveUSB image
  |  < |  __  |\___ \ 
  | . \| |  | |____) |
  | |\_\_|  |_|_____/ 
- | (_)               
+ | |
+ | |.   ,--()
+ | ( )-'-.------|>
+ | |`     `--[]       
  | |___   _____      
  | | \ \ / / _ \     
  | | |\ V /  __/     
- |_|_| \_/ \___|     
+ |_|_| \_/ \___|
+
 ```
 
 The KHSLiveUSB image is built on Debian 13 Trixie with Xfce and kernel 6.12 for the AMD64 architecture.
