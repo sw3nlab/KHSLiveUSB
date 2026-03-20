@@ -68,7 +68,7 @@ https://github.com/sw3nlab/KHSLiveUSB/tree/main/reticulum_node_example
 
 Tested on E-byte E49 UART Radio Trancievers
 `C1 C1 C1 = c0 00 00 3f 2e 00`
-![image](images/ttl_uart.jpg)
+![image](images/radio_ttl.jpg)
 ![image](images/datash.jpg)
 Donate: 
 https://dzen.ru/cyberunit?donate=true
