@@ -30,9 +30,9 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 
 ![image](images/cyberfox.jpg)
-
+Interfaces
 ![image](images/interfaces.jpg)
-
+Download files from Node
 ![image](images/download.jpg)
 INSTALL:
 - Download image foximage_armv7l_0.3.bin ( https://huggingface.co/cyberunit/KHSLiveUSB/tree/main )
