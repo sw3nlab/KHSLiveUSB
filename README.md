@@ -30,11 +30,11 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 
 
 ![image](images/cyberfox.jpg)
-Interfaces
+## Interfaces
 ![image](images/interfaces.jpg)
-Download files from Node
+## Download files from Node
 ![image](images/download.jpg)
-INSTALL:
+## INSTALL:
 - Download image foximage_armv7l_0.3.bin ( https://huggingface.co/cyberunit/KHSLiveUSB/tree/main )
 - Write to 8Gb MicroSD Card
 ```php
