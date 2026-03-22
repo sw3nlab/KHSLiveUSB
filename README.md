@@ -39,7 +39,7 @@ Download: HF link https://huggingface.co/cyberunit/KHSLiveUSB
 ## Download files from Node
 ![image](images/download.jpg)
 ## INSTALL:
-- Download image foximage_armv7l_0.3.bin ( https://huggingface.co/cyberunit/KHSLiveUSB/tree/main )
+- Download image foximage_armv7l_0.4.bin ( https://huggingface.co/cyberunit/KHSLiveUSB/tree/main )
 - Write to 8Gb MicroSD Card
 ```php
 dd if=cyberfox_armv7l.iso of=/dev/sd? bs=1M status=progress
@@ -58,7 +58,7 @@ http://192.168.2.111/index.php
 ReticulumCFG = ~/.reticulum/config<br/>
 NodeCFG = ~/.nomadnetwork/config
 
-
+![image](images/webint.gif)
 
 
 Example Node pages 
