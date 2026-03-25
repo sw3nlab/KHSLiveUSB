@@ -71,7 +71,7 @@ Tested on E-byte E49 UART Radio Trancievers
 ![image](images/radio_ttl.jpg)
 ![image](images/datash.jpg)
 ## Reticulum Sattelite Communications Concept
-![image](images/concept1.jpg)
+![image](images/concept1.png)
 
 ## Donate: 
 https://dzen.ru/cyberunit?donate=true
