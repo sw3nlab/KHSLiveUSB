@@ -51,7 +51,7 @@ Default ip: 192.168.2.111<br/>
 Default login: pico<br/>
 Default pass: luckfox<br/>
 
->Web-interface:
+>Web-interface (View Only)
 http://192.168.2.111/index.php
 
 >Configs
