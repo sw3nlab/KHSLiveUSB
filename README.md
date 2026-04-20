@@ -6,17 +6,16 @@ Neuro Reticulum LiveUSB image
  | |/ / |  | |/ ____|
  | ' /| |__| | (___  
  |  < |  __  |\___ \ 
- | . \| |  | |____) |
- | |\_\_|  |_|_____/ 
- | |
- | |.   ,--()
- | ( )-'-.------|>
- | |`     `--[]       
- | |___   _____      
- | | \ \ / / _ \     
- | | |\ V /  __/     
- |_|_| \_/ \___|
-
+ | . \| |  | |____) | LiveUSB 0.9
+ | |\_\_|  |_|_____/    with
+ | |                    
+ | |.   ,--()      llama.cpp + Gemma 4
+ | ( )-'-.------|> Reticulum Network Stack
+ | |`     `--[]    Meshtastic
+ | |___   _____    
+ | | \ \ / / _ \   Special for
+ | | |\ V /  __/   Use in case of
+ |_|_| \_/ \___|   Total BlackOUT
 ```
 
 The KHSLiveUSB image is built on Debian 13 Trixie with Xfce and kernel 6.12 for the AMD64 architecture.
